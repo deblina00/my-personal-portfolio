@@ -40,7 +40,7 @@
 // export default Project;
 
 import SectionHeading from "@/components/Helper/SectionHeading";
-import { projectData } from "@/Data/data";
+// import { projectData } from "@/Data/data";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";

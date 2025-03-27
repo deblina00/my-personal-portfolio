@@ -48,8 +48,8 @@ const ContactForm = () => {
         Get In Touch
       </h2>
       <p className="text-gray-200 mt-3 lg:text-base text-xs md:text-sm">
-        "Interested in working together? Feel free to reach out via email or
-        send me a message!"
+        Interested in working together? Feel free to reach out via email or
+        send me a message!
       </p>
       <form
         onSubmit={handleSubmit}
