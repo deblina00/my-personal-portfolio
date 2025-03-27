@@ -115,11 +115,14 @@ import React from "react";
 import { FaDownload, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 import { CiLinkedin, CiFacebook } from "react-icons/ci";
 
-type HeroProps = {
-  // title?: string;
-  // subtitle?: string;
-  // image?: string;
-};
+// type HeroProps = {
+//   // title?: string;
+//   // subtitle?: string;
+//   // image?: string;
+// };
+
+// type HeroProps = object;
+
 
 type SocialLink = {
   name: string;
@@ -140,7 +143,7 @@ const socialLinks: SocialLink[] = [
   { name: "Facebook", url: "#", icon: <CiFacebook /> },
 ];
 
-const Hero: React.FC<HeroProps> = () => {
+const Hero: React.FC= () => {
   return (
     <div className="w-full pt-[4vh] md:pt-[12vh]  md:pb-0 h-screen bg-[#0f0f10] overflow-hidden relative">
       <div className="flex justify-center flex-col w-4/5 h-full mx-auto">
