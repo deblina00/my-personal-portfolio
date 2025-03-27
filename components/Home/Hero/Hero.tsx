@@ -116,9 +116,9 @@ import { FaDownload, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 import { CiLinkedin, CiFacebook } from "react-icons/ci";
 
 type HeroProps = {
-  title?: string;
-  subtitle?: string;
-  image?: string;
+  // title?: string;
+  // subtitle?: string;
+  // image?: string;
 };
 
 type SocialLink = {
@@ -151,7 +151,6 @@ const Hero: React.FC<HeroProps> = () => {
               data-aos="fade-left"
               className="text-xl md:text-2xl lg:text-3xl mb-5 text-gray-300 font-semibold"
             >
-              {" "}
               Hi, I am {BaseInfo.name}
             </h5>
             {/* Title */}
