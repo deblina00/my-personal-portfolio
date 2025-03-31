@@ -17,3 +17,20 @@ export async function getProjectData() {
     return [];
   }
 }
+
+export async function getSkillData() {
+  const query = `*[_type == "skills"] | order(_createdAt asc) {
+    title,
+    "image": image.asset->url,
+    percent
+  }`;
+
+  try {
+    const data = await client.fetch(query);
+    console.log("Sanity Response:", data);
+    return data;
+  } catch (error) {
+    console.error("Sanity Fetch Error:", error);
+    return [];
+  }
+}

@@ -114,30 +114,20 @@ export const projectData = [
     image: "/images/restaurant.webp",
     Live_link: "https://my-restaurant-app-delta.vercel.app/",
   },
-  // {
-  //   id: 7,
-  //   image: "/images/p7.png",
-  //   url: "",
-  // },
-  // {
-  //   id: 8,
-  //   image: "/images/p8.png",
-  //   url: "",
-  // },
 ];
 
 export const skillsData = [
   {
     id: 1,
-    title: "React",
+    title: "React.JS",
     image: "/images/react.svg",
-    percent: "97%",
+    percent: "95%",
   },
   {
     id: 2,
-    title: "Next",
+    title: "Next.JS",
     image: "/images/nextjs1.svg",
-    percent: "90%",
+    percent: "93%",
   },
   {
     id: 3,
@@ -149,19 +139,19 @@ export const skillsData = [
     id: 4,
     title: "JavaScript",
     image: "/images/js.svg",
-    percent: "92%",
+    percent: "95%",
   },
   {
     id: 5,
     title: "TypeScript",
     image: "/images/ts.svg",
-    percent: "77%",
+    percent: "75%",
   },
   {
     id: 6,
     title: "Tailwind",
     image: "/images/tailwind1.svg",
-    percent: "90%",
+    percent: "85%",
   },
   {
     id: 7,
@@ -173,20 +163,20 @@ export const skillsData = [
     id: 8,
     title: "C language",
     image: "/images/c-1.svg",
-    percent: "75%",
+    percent: "70%",
   },
   {
     id: 9,
     title: "Supabase",
     image: "/images/supabase.svg",
-    percent: "50%",
+    percent: "40%",
   },
 
   {
     id: 10,
     title: "Firebase",
     image: "/images/firebase.svg",
-    percent: "50%",
+    percent: "40%",
   },
 ];
 
