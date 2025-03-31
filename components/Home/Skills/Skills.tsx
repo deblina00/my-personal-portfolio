@@ -30,7 +30,7 @@
 // export default Skills;
 
 import SectionHeading from "@/components/Helper/SectionHeading";
-import { skillsData } from "@/Data/data";
+// import { skillsData } from "@/Data/data";
 import { getSkillData } from "@/sanity/lib/queries";
 import React, { useEffect, useState } from "react";
 import SkillCard from "./SkillCard";
