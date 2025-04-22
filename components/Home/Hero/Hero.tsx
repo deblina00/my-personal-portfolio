@@ -194,7 +194,7 @@ const Hero: React.FC= () => {
             {/* Button */}
             {/* Download CV Button */}
             <a
-              href="/images/My.CV.pdf"
+              href="/Deblina Roy-CV.pdf"
               download="My_CV.pdf"
               data-aos="zoom-in"
               data-aos-delay="400"
