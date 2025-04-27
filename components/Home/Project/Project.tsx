@@ -25,7 +25,7 @@ const Project = () => {
   }, []);
 
   return (
-    <div id="projects" className="pt-16 pb-16 bg-[#0f0f10]">
+    <div id="projects" className="pt-16 pb-16 bg-[#050709]">
       <SectionHeading>
         Latest <span className="text-[#F78F42]">Projects</span>
       </SectionHeading>

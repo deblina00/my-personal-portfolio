@@ -100,7 +100,7 @@ import { CiLinkedin, CiFacebook } from "react-icons/ci";
 
 const Footer = () => {
   return (
-    <div className="pb-10 pt-6 px-4 sm:px-8 md:px-16 bg-[#050709]">
+    <div className="pb-10 pt-6 px-4 sm:px-8 md:px-16 bg-[#0f0f10]">
       {/* Logo */}
       <div className="flex justify-center mb-6">
         <Image
@@ -158,6 +158,10 @@ const Footer = () => {
       <nav className="flex flex-wrap justify-center mt-8 gap-4 sm:gap-8 text-white font-semibold text-sm sm:text-base">
         <a href="#home" className="hover:text-[#F78F42] transition">
           Home
+        </a>
+        <span className="hidden sm:inline">|</span>
+        <a href="#journey" className="hover:text-[#F78F42] transition">
+          Journey
         </a>
         <span className="hidden sm:inline">|</span>
         <a href="#projects" className="hover:text-[#F78F42] transition">

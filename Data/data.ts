@@ -169,7 +169,7 @@ export const skillsData = [
   {
     id: 8,
     title: "C language",
-    image: "/images/c-1.svg",
+    image: "/images/c++.png",
     percent: "79%",
   },
   {
@@ -182,7 +182,7 @@ export const skillsData = [
   {
     id: 10,
     title: "Prisma",
-    image: "/images/firebase.svg",
+    image: "/images/prisma.png",
     percent: "20%",
   },
 ];

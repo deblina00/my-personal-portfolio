@@ -6,7 +6,7 @@ import SectionHeading from "@/components/Helper/SectionHeading";
 const Contact = () => {
  
   return (
-    <div id="contacts" className="pt-16 pb-16 bg-[#0f0f10]">
+    <div id="contacts" className="pt-16 pb-16 bg-[#050709]">
       <SectionHeading>
         Contact <span className="text-[#F78F42]">Me</span>
       </SectionHeading>

@@ -8,6 +8,7 @@ import Skills from "./Skills/Skills";
 import Contact from "./Contact/Contact";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Journey from "./Journey/Journey";
 
 const Home = () => {
   useEffect(() => {
@@ -26,6 +27,7 @@ const Home = () => {
     <div id="home" className="overflow-hidden">
       <Hero />
       <About />
+      <Journey />
       <Project />
       <Skills />
       <Contact />
