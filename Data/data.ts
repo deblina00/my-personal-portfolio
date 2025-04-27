@@ -74,43 +74,50 @@ export const servicesData = [
 export const projectData = [
   {
     id: 1,
-    title: "A Responsive E-commerce Website", // Add this
-    description: "A brief overview of the project.", // Add this
+    title: "Cara! - A fully responsive online shopping platform", // Add this
+    description:
+      "Built using React.js, JavaScript, and Tailwind CSS. Features dynamic product listings, a shopping cart system, and a smooth user flow and a seamless shopping experience across all devices.", // Add this
     image: "/images/ecommerce.webp",
     Live_link: "https://shopping-app-pi-ten.vercel.app/",
   },
   {
     id: 2,
-    title: "An Advanced Spotify Clone using React.Js & Tailwind CSS",
-    description: "A brief overview of the project.",
+    title: "Tuneify -An Advanced Spotify Clone Webite .",
+    description:
+      "Built using React.js, Tailwind CSS, and JavaScript. Focused on delivering seamless playback functionality. Users can enjoy a smooth, interactive UI inspired by Spotify's modern design.",
     image: "/images/spotify.webp",
     Live_link: "https://tuneify-app.vercel.app/",
   },
   {
     id: 3,
-    title: "A Trekking Travel Website uing Next.Js, Supabase & Tailwind CSS",
-    description: "A brief overview of the project.",
+    title: "BookItNow! - A Movie Ticket Booking Website",
+    description:
+      "Built with Next.js, TypeScript, Tailwind CSS, Zustand, and Supabase, the project focuses on delivering an interactive user experience and a powerful admin management system.",
     image: "/images/travel.webp",
     Live_link: "",
   },
   {
     id: 4,
-    title: "My Awesome Portfolio with Next.Js, Typescript & Tailwind CSS",
-    description: "A brief overview of the project.",
+    title:
+      "Circuit Hub! - OTP-Based Authentication and Product Management System",
+    description:
+      "Built with Next, Typescript & MUI.I've integrated Tanstack Query for efficient server-state management, Zustand for handling global state and middleware to enhance security and request handling.",
     image: "/images/portfolio.webp",
     Live_link: "https://deblinaroy.vercel.app/",
   },
   {
     id: 5,
-    title: "An Advanced Medical & Health Care Website with Next.Js",
-    description: "A brief overview of the project.",
+    title: "MediClinic - An Advanced Medical Appointment Booking Website.",
+    description:
+      "Built using React, Javascript & Tailwind CSS. Easily book doctor appointments and find trusted healthcare providers, choose your preferred time slot, get instant confirmations — all in a few clicks.",
     image: "/images/medical.webp",
     Live_link: "https://medical-website-pied.vercel.app/",
   },
   {
     id: 6,
-    title: "A Restaurant Food Ordering Website with React.Js & MUI",
-    description: "A brief overview of the project.",
+    title: "My Restaurant! - A modern and fully responsive restaurant website",
+    description:
+      "Built using React.js, JavaScript, and Tailwind CSS. Showcases menu items, special offers, and a beautifully designed layout to enhance user engagement and browsing experience",
     image: "/images/restaurant.webp",
     Live_link: "https://my-restaurant-app-delta.vercel.app/",
   },
@@ -121,31 +128,31 @@ export const skillsData = [
     id: 1,
     title: "React.JS",
     image: "/images/react.svg",
-    percent: "95%",
+    percent: "88%",
   },
   {
     id: 2,
     title: "Next.JS",
     image: "/images/nextjs1.svg",
-    percent: "93%",
+    percent: "85%",
   },
   {
     id: 3,
     title: "CSS",
     image: "/images/css.svg",
-    percent: "98%",
+    percent: "95%",
   },
   {
     id: 4,
     title: "JavaScript",
     image: "/images/js.svg",
-    percent: "95%",
+    percent: "92%",
   },
   {
     id: 5,
     title: "TypeScript",
     image: "/images/ts.svg",
-    percent: "75%",
+    percent: "65%",
   },
   {
     id: 6,
@@ -157,13 +164,13 @@ export const skillsData = [
     id: 7,
     title: "HTML",
     image: "/images/html.svg",
-    percent: "99%",
+    percent: "98%",
   },
   {
     id: 8,
     title: "C language",
     image: "/images/c-1.svg",
-    percent: "70%",
+    percent: "79%",
   },
   {
     id: 9,
@@ -174,9 +181,9 @@ export const skillsData = [
 
   {
     id: 10,
-    title: "Firebase",
+    title: "Prisma",
     image: "/images/firebase.svg",
-    percent: "40%",
+    percent: "20%",
   },
 ];
 

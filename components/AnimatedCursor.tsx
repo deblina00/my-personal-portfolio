@@ -50,17 +50,6 @@ const AnimatedCursor = () => {
   }, [mouseX, mouseY]);
 
   return (
-    // <motion.div
-    //   className="fixed top-0 left-0 bg-white rounded-full pointer-events-none mix-blend-difference z-50"
-    //   style={{
-    //     width: isHovered ? enlargedSize : cursorSize,
-    //     height: isHovered ? enlargedSize : cursorSize,
-    //     translateX: smoothX,
-    //     translateY: smoothY,
-    //     transition: "width 0.2s, height 0.2s",
-    //   }}
-    // />
-
     <>
       {/* Outer Ring */}
       <motion.div

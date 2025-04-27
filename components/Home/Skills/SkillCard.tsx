@@ -38,3 +38,6 @@ const SkillCard = ({ skill }: Props) => {
 };
 
 export default SkillCard;
+
+
+

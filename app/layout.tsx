@@ -1,13 +1,18 @@
 import type { Metadata } from "next";
-import { Sora } from "next/font/google";
+import { Sora, Merriweather } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 import Footer from "@/components/Home/Footer/Footer";
 import ScrollTop from "@/components/Helper/ScrollTop";
 // import AnimatedCursor from "@/components/AnimatedCursor";
 
-const font = Sora({
+const sora = Sora({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
+  subsets: ["latin"],
+});
+
+const merriweather = Merriweather({
+  weight: ["400", "700"], // You can customize the weights
   subsets: ["latin"],
 });
 
@@ -82,7 +87,8 @@ export default function RootLayout({
           })}
         </script>
       </head>
-      <body className={`${font.className} `}>
+      {/* <body className={`${font.className} `}> */}
+      <body className={`${sora.className} ${merriweather.className}`}>
         {/* <AnimatedCursor /> */}
         <ResponsiveNav />
         {children}

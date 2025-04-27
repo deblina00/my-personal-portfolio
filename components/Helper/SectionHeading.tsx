@@ -1,5 +1,6 @@
 import React, { ReactNode } from "react";
 
+
 //define props type
 
 type Props = {
@@ -8,7 +9,7 @@ type Props = {
 
 const SectionHeading = ({ children }: Props) => {
   return (
-    <h2 className="w-fit text-center px-4 py-3 mx-auto text-white text-2xl sm:text-3xl md:text-4xl uppercase">
+    <h2 className="w-fit text-center px-4 py-3 mx-auto text-white text-2xl sm:text-3xl md:text-4xl uppercase font-merriweather">
       {children}
     </h2>
   );
